@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             // ProductInventorySeeder::class,
             // InventoryImagesSeeder::class,
             // ReviewsSeeder::class,
-            // CollectionSeeder::class
+            // CollectionSeeder::class,
             DefaultAdminsSeeder::class
          ]);
 

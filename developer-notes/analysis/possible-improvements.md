@@ -1,0 +1,4 @@
+- **search** uses `post form` (about 1-2 seconds load-time). can be improved using AJAX
+- **admin** profile page should have a link to portal
+- **little ui fixes** (e.g., profile image button needs responsiveness, )
+- **tables ui** needs improvement

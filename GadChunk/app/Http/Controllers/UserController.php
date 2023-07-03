@@ -108,8 +108,6 @@ class UserController extends Controller
             ]);
 
             return redirect()->back()->with('success', 'Profile has been updated successfully');
-
-
     }
 
     // update profile avatar

@@ -163,7 +163,12 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
-// Main Site Page
+/*
+|--------------------------------------------------------------------------
+| Guest Routes
+|--------------------------------------------------------------------------
+|
+*/
 Route::get ('/',             [NavigatorController::class, 'index'       ])->name('home'          );
 Route::get ('/shop',         [NavigatorController::class, 'shop'        ])->name('shop'          );
 Route::get ('/product/{id}', [NavigatorController::class, 'single_item' ])->name('product_detail');
