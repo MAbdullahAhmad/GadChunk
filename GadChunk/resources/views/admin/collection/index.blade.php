@@ -75,12 +75,9 @@
                                             </div>
 
                                             <div class="col-6 mb-3">
-                                                <label for="example-text-input" class=" col-form-label">Discount
-                                                    Percentage</label>
+                                                <label for="example-text-input" class=" col-form-label">Discount Percentage</label>
                                                 <div class="col-sm-10">
-                                                    <input class="form-control" type="text"
-                                                        placeholder="Enter discount perccentage" id="example-text-input"
-                                                        name="discount_price">
+                                                    <input class="form-control" placeholder="Discount in %" id="example-text-input" name="discount_price" type="number" step="0.01">
                                                         <div class="text-danger">Note * Enter value in % without sign</div>
 
                                                     @error('discount_price')

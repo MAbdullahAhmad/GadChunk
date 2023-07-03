@@ -92,8 +92,8 @@
                                                         class="col-sm-6 col-form-label">Retail
                                                         Price</label>
                                                     <div class="col-sm-12">
-                                                        <input class="form-control" type="text" value="{{ $product->prod_inventory->retail_price }}"
-                                                            placeholder="Enter retail price" id="example-text-input"
+                                                        <input class="form-control" type="number" step="0.01" value="{{ $product->prod_inventory->retail_price }}"
+                                                            placeholder="Retail Price" id="example-text-input"
                                                             name="retail_price">
                                                         @error('retail_price')
                                                             <div class="text-danger">{{ $message }}</div>
@@ -102,11 +102,10 @@
                                                 </div>
                                                 <div class="col-6 mb-3">
                                                     <label for="example-text-input"
-                                                        class="col-sm-6 col-form-label">Discount
-                                                        Price</label>
+                                                        class="col-sm-6 col-form-label">Discount Price</label>
                                                     <div class="col-sm-12">
                                                         <input class="form-control" type="text" value="{{ $product->prod_inventory->discount_price }}"
-                                                            placeholder="Enter store price(if any)"
+                                                            placeholder="Discount in %"
                                                             id="example-text-input" name="discount_price">
                                                         @error('discount_price')
                                                             <div class="text-danger">{{ $message }}</div>
@@ -118,8 +117,8 @@
                                                         class="col-sm-6 col-form-label">Stock
                                                     </label>
                                                     <div class="col-sm-12">
-                                                        <input class="form-control" type="text" value="{{ $product->prod_inventory->stock }}"
-                                                            placeholder="Enter store price" id="example-text-input"
+                                                        <input class="form-control" type="number" step="0.01" value="{{ $product->prod_inventory->stock }}"
+                                                            placeholder="Stock Price" id="example-text-input"
                                                             name="stock">
                                                         @error('stock')
                                                             <div class="text-danger">{{ $message }}</div>

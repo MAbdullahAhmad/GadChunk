@@ -2,3 +2,5 @@
 - **admin** profile page should have a link to portal
 - **little ui fixes** (e.g., profile image button needs responsiveness, )
 - **tables ui** needs improvement
+- **discount** shall have 2 options : price / %age
+- search for **example-text-input** in files

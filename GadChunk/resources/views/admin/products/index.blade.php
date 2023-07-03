@@ -113,7 +113,7 @@
                                                 <label class="form-label" for="product_description">Product
                                                     Description</label>
                                                 <textarea class="form-control" id="product_description" rows="5" placeholder="Enter Description"
-                                                    name="product_description">lorem ipsum</textarea>
+                                                    name="product_description"></textarea>
                                                 @error('product_description')
                                                     <div class="text-danger fw-semibold">{{ $message }}</div>
                                                 @enderror
